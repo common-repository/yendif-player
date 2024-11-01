@@ -1,0 +1,313 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+.yendif-player-playlists,
+.yendif-player-media {
+	padding:15px 0px;
+}
+
+.yendif-player-help {
+	padding:5px 15px;
+}
+
+.yendif-player p.yendif-player-notice {
+	margin:0;
+	padding:7px 10px;
+	background-color:#FFFFDD;
+	text-align:center;
+}
+
+.yendif-player.yendif-player-media p.yendif-player-notice,
+.yendif-player.yendif-player-playlists p.yendif-player-notice {
+	margin-bottom:20px;
+}
+
+.yendif-player p.yendif-player-notice span {
+	margin:0 10px;
+}
+
+.yendif-player p.yendif-player-notice span a {
+	padding-left:5px;
+}
+
+.yendif-player,
+.yendif-player .yendif-player-description {
+	font-size:14px;
+	line-height:20px;
+}
+
+.yendif-player .yendif-player-description,
+.yendif-player .yendif-player-note {
+	-webkit-touch-callout:none;
+	  -webkit-user-select:none;
+	   -khtml-user-select:none;
+	     -moz-user-select:none;
+          -ms-user-select:none;
+              user-select:none;
+}
+
+.yendif-player-help .yendif-player-description,
+.yendif-player .yendif-player-form-table .yendif-player-description {
+	margin:10px 0px 0px 0px;
+	color:#777;	
+}
+
+.yendif-player .yendif-player-description.indent {
+	margin-left:94px;
+}
+
+.yendif-player .yendif-player-description .maroon {
+	color:#CC0000;
+}
+
+.yendif-player .yendif-player-description .maroon i {
+	color:#666;
+	font-size:12px;
+	font-style:normal;	
+}
+
+.yendif-player .yendif-player-note {
+	padding:10px 0px 0px 0px;
+	font-size:13px;
+	font-style:italic;	
+}
+
+.yendif-player .yendif-player-spacer {
+	height:15px;
+}
+
+.yendif-player-settings .yendif-player-divider th,
+.yendif-player-settings .yendif-player-divider td {
+	border-top:1px dashed #CCC;
+}
+
+.yendif-player .yendif-player-header h2 {
+	padding:0px;
+}
+
+.yendif-player h3 {
+	margin:15px 0px 0px 0px;
+	padding:10px 0px;
+	color:#0074a2;
+	font-size:20px;
+}
+
+.yendif-player h4 {
+	text-decoration:underline;
+}
+
+.yendif-player .yendif-player-left {
+	float:left;
+}
+
+.yendif-player .yendif-player-right {
+	float:right;
+}
+
+.yendif-player .yendif-player-clear {
+	clear:both;
+}
+
+.yendif-player .yendif-player-block {
+	display:block;
+}
+
+.yendif-player .yendif-player-backlink {
+	text-decoration:none;
+	line-height:29px;
+}
+
+.yendif-player .tablenav {
+	margin:10px 0px;
+}
+
+.yendif-player .column-featured {
+	text-align:left;
+}
+
+.yendif-player .yendif-player-form-table {
+	width:100%;
+}
+.yendif-player .yendif-player-form-table th {
+	width:125px;
+	padding:15px 15px 15px 0px;
+	text-align:left;
+}
+
+.yendif-player .yendif-player-form-table td {
+	padding:15px 0px;
+}
+
+.yendif-player ul.yendif-player-list {
+	margin:0;
+	padding:0;
+	list-style:none !important;
+}
+
+.yendif-player ul.yendif-player-list li {
+	margin:0;
+	padding:3px 0;
+	list-style-type:circle;
+	list-style-position:inside;
+}
+
+.yendif-player input.yendif-player-title {
+	width:100%;
+	font-size:1.6em;
+	line-height:1.6em;
+}
+
+.yendif-player input.yendif-player-wide {
+	width:75%;
+	max-width:400px;
+}
+
+.yendif-player input.yendif-player-medium {
+	width:200px;
+	margin:0px;
+	line-height:1.5em;
+}
+
+.yendif-player input.yendif-player-small {
+	width:60px;
+	line-height:1.6em;
+}
+
+.yendif-player input.yendif-player-center {
+	text-align:center;
+}
+
+.yendif-player .yendif-player-media-uploader input[type="text"],
+.yendif-player .yendif-player-media-uploader input[type="button"] {
+	margin-top:10px;
+}
+
+.yendif-player .yendif-player-media-uploader input[type="text"] {
+	padding:4px 5px;
+}
+
+.yendif-player-media .yendif-player-media-uploader .yendif-player-upload-button,
+.yendif-player-playlists .yendif-player-media-uploader .yendif-player-upload-button {
+	margin-left:5px;
+}
+
+.yendif-player .yendif-player-form-table input[type=radio] {
+	margin-top:0;
+}
+
+.yendif-player .yendif-player-radio {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.yendif-player .yendif-player-form-table .yendif-player-radio span {
+	vertical-align:middle;
+}
+
+.yendif-player .yendif-player-left-content {
+	float:left;
+	width:75%;
+}
+
+.yendif-player .yendif-player-right-content {
+	float:right;
+	width:25%;
+}
+
+.yendif-player-settings .yendif-player-left-content,
+.yendif-player-settings .yendif-player-right-content {
+	width:50%;
+}
+
+.yendif-player .yendif-player-left-content input.yendif-player-title,
+.yendif-player .yendif-player-box {
+	margin-top:20px;
+}
+
+.yendif-player .yendif-player-box {
+	background-color:#FFF;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.04);
+			box-shadow:0 1px 1px rgba(0,0,0,.04);
+}
+
+.yendif-player .yendif-player-right-content .yendif-player-box {
+	margin-left:20px;
+}
+
+.yendif-player .yendif-player-right-content .yendif-player-box input#submit {
+	display:block;
+	margin:15px 0px 0px 0px;
+}
+
+.yendif-player .yendif-player-box .yendif-player-box-header {	
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	margin:0;
+	padding:10px 15px;
+}
+
+.yendif-player .yendif-player-box .yendif-player-box-content textarea {
+	width:100%;
+	height:100px;
+}
+
+.yendif-player .yendif-player-box .yendif-player-box-content,
+.yendif-player .yendif-player-box .yendif-player-form-table {
+	width:100%;
+	background-color:#FFF;
+	margin:0;
+	padding:0;
+}
+
+.yendif-player .yendif-player-box .yendif-player-box-content .yendif-player-box-inner {
+	max-height:150px;
+	margin:12px;
+	padding:3px;
+	font-weight:normal;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.yendif-player .yendif-player-box .yendif-player-form-table th,
+.yendif-player .yendif-player-box .yendif-player-form-table td {
+	margin:0;
+	padding:15px;
+	font-weight:normal;
+}
+
+.yendif-player label.yendif-player-block,
+.yendif-player .yendif-player-playlist-label {
+	display:block;
+	margin:5px 0px 10px 0px;
+}
+
+.yendif-player .yendif-player-invalid {
+	background-color:#FFFF00;
+	border:1px solid #FF0000;
+}
+
+@media screen and (max-width:1100px) {
+	.yendif-player p.yendif-player-notice {
+		display:none;
+	}
+	
+	.yendif-player .yendif-player-left-content,
+	.yendif-player .yendif-player-right-content {
+		float:none;
+		width:100%;
+	}
+	
+	.yendif-player .yendif-player-right-content .yendif-player-box {
+		margin-left:0;
+	}
+	
+	.yendif-player .yendif-player-radio {
+		margin:7px 7px 7px 0px;
+	}
+	
+	h2.nav-tab-wrapper {
+		display:none;
+	}
+}

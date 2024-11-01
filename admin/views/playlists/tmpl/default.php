@@ -1,0 +1,34 @@
+<?php
+/**
+ * @package   Yendif Player
+ * @author    Yendif Technologies Pvt Ltd. (email : admin@yendifplayer.com)
+ * @license   GPL-2.0+
+ * @link      http://yendifplayer.com/
+ * @copyright 2014 Yendif Technologies Pvt Ltd.
+ */
+ 
+$page = $_GET['page'];
+$action = '?page=' . $page . '&action=add';
+$hidden = '<input type="hidden" name="page" value="' . $page . '" />';
+
+?>
+
+<div class="wrap yendif-player <?php echo $page; ?>">
+  <p class="yendif-player-notice">
+    <span style="display:block; color:#a00">You're using the Yendif Player WordPress Plugin - FREE version. Upgrade to our <a href="http://yendifplayer.com/wordpress-plugin-download.html" target="_blank">PRO Version</a> and get access to all our pro features, receive updates & get lifetime support.</span>
+    <span><strong><?php _e( 'Note', YENDIF_PLAYER_PLUGIN_SLUG ); ?> : </strong><?php _e( 'Use "type=audio" in player shortcode when adding audio playlists to page or posts. Example : [yendifplayer type=audio playlist=1]', YENDIF_PLAYER_PLUGIN_SLUG ); ?></span>
+  </p>
+  <?php $this->prepare_items(); ?>
+  <div class="yendif-player-left">
+    <a href="<?php echo $action; ?>" class="button-primary"><?php _e( 'Add New Playlist', YENDIF_PLAYER_PLUGIN_SLUG ); ?></a>
+  </div>
+  <form method="post" class="<?php echo $page; ?>-form-search" id="<?php echo $page; ?>-form-search">
+    <?php echo $hidden; ?>
+    <?php $this->search_box( __( 'Search by Name', YENDIF_PLAYER_PLUGIN_SLUG ), 'yendif_player_search' ); ?>
+  </form>
+  <div class="yendif-player-clear"></div>
+  <form method="get" class="<?php echo $page; ?>-form-filter" id="<?php echo $page; ?>-form-filter">
+    <?php echo $hidden; ?>
+    <?php $this->display();	?>
+  </form>
+</div>
